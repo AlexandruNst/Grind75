@@ -1,7 +1,7 @@
 class Solution {
 
     // T: O(n + m)
-    // S: O(n + m)
+    // S: O(1) we are just shifting the nodes, not creating new ones
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode head = new ListNode();
         ListNode res = head;
